@@ -35,6 +35,8 @@ body > div {
 @media screen and (min-width: 480px) and (max-width:1024px) {
     body {
         background-color: green;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     #small {
         width:66.6%;
